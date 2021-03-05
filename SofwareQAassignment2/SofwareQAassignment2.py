@@ -6,7 +6,7 @@ def main():
             cont = input('Invalid input, please enter y or n: ')
         if cont == 'n':
             print("Goodbye!")
-            break  
+            break   
     
 
 def menu():
@@ -22,6 +22,7 @@ def menu():
 
     elif selection == '2':
         retirement()
+
 
 def BMI():
     while True:
