@@ -1,11 +1,11 @@
 def main():
     cont = input("Would you like to start? Enter y or n: ")
     while cont != 'y' and cont != 'n':
-            cont = input('Invalid input, please enter y or n: ')
+        cont = input('Invalid input, please enter y or n: ')
     while cont == "y":
         menu()
         cont = input("Would you like to continue? Enter y or n: ")
-        if cont != 'y' and cont != 'n':
+        while cont != 'y' and cont != 'n':
             cont = input('Invalid input, please enter y or n: ')
     if cont == 'n':
         print("Goodbye!")
@@ -25,6 +25,7 @@ def menu():
 
     elif selection == '2':
         print ("normally this would start calculator for retirement")
+
 
 def BMI():
     while True:
