@@ -1,5 +1,4 @@
 def main():
-    
     while True:
         menu()
         cont = input("Would you like to continue? Enter y or n: ")
